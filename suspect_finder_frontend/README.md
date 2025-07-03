@@ -11,6 +11,12 @@ This project provides a minimal React template with a clean, modern UI and minim
 
 ## Getting Started
 
+> **Cloud/Local Network Warning**:  
+> If you get an `Invalid Host header` error while running `npm start` and accessing the app from a LAN IP or custom host, this is because the React development server (react-scripts) restricts unknown hosts by default.  
+> 
+> This project supports local and LAN connections out of the box using the `.env.development` file (`HOST=0.0.0.0`).  
+> You can now access the app at `http://<your-lan-ip>:3000` or using custom hosts, which is useful for mobile device/browser/network testing.
+
 In the project directory, you can run:
 
 ### `npm start`
